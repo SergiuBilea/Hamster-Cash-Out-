@@ -1,0 +1,38 @@
+body{
+    background-color: #1d4dcf;
+    user-select: none;
+}
+
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#total{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#coinImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#totalNumber{
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.number {
+    position: absolute;
+    font-size: 24px;
+    color: #fde220;
+    pointer-events: none;
+    animation: fadeOut 1s forwards;
+}
